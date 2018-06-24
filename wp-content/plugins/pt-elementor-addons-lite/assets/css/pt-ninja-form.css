@@ -1,0 +1,29 @@
+/* Ninja Form Styles */
+
+
+
+.pt-ninja-container input, .pt-ninja-container textarea {
+  height: auto;
+  padding: 10px;
+}
+
+.pt-contact-form-align-center .pt-ninja-container, .pt-contact-form-btn-align-center .pt-ninja-container .nf-field .nf-field-element input[type="button"] {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block;
+  float: none;
+}
+
+.pt-contact-form-align-left .pt-ninja-container, .pt-contact-form-btn-align-left .pt-ninja-container .nf-field .nf-field-element input[type="button"] {
+  float: left;
+  width: auto;
+}
+
+.pt-contact-form-align-right .pt-ninja-container, .pt-contact-form-btn-align-right .pt-ninja-container .nf-field .nf-field-element input[type="button"] {
+  float: right;
+  width: auto;
+}
+
+.pt-ninja-container ul.wpuf-form li .wpuf-fields input[type="text"], .pt-ninja-container .nf-field .nf-field-element input[type="password"], .pt-ninja-container ul.wpuf-form li .wpuf-fields input[type="email"], .pt-ninja-container .nf-field .nf-field-element input[type="url"], .pt-ninja-container ul.wpuf-form li .wpuf-fields input[type="number"], .pt-ninja-container .nf-field .nf-field-element textarea {
+  max-width: 100%;
+}

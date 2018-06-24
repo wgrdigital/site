@@ -1,0 +1,47 @@
+/*
+Contact form 7 CSS
+*/
+
+.pt-gravity-container input,
+.pt-gravity-container textarea {
+    height: auto;
+    padding: 10px;
+}
+.pt-gravity-container .gform_wrapper{
+	width : auto;
+}
+.pt-contact-form-align-center .pt-gravity-container .pt-gravity-align-center .pt-gravity-container,
+.pt-gravity-btn-align-center .pt-gravity-container input .gform_footer .gform_button{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+    float: none;
+}
+.pt-gravity-align-left .pt-gravity-container,
+.pt-gravity-btn-align-left .pt-gravity-container input .gform_footer .gform_button{
+    float: left;
+    width: auto;
+}
+.pt-gravity-align-right .pt-gravity-container,
+.pt-gravity-btn-align-right .pt-gravity-container input .gform_footer .gform_button {
+    float: right;
+    width: auto;
+}
+.pt-gravity-container textarea,
+.pt-gravity-container input[type="text"],
+.pt-gravity-container input[type="password"],
+.pt-gravity-container input[type="datetime"],
+.pt-gravity-container input[type="datetime-local"],
+.pt-gravity-container input[type="date"],
+.pt-gravity-container input[type="month"],
+.pt-gravity-container input[type="time"],
+.pt-gravity-container input[type="week"],
+.pt-gravity-container input[type="number"],
+.pt-gravity-container input[type="email"],
+.pt-gravity-container input[type="url"],
+.pt-gravity-container input[type="search"],
+.pt-gravity-container input[type="tel"],
+.pt-gravity-container input[type="color"],
+.pt-gravity-container .uneditable-input {
+    max-width: 100%;
+}

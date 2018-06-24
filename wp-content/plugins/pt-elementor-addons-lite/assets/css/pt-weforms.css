@@ -1,0 +1,17 @@
+/* weforms Form Styles */
+
+
+
+.pt-contact-form-align-center .pt-wpforms-container {
+    float: none;
+    margin: 0 auto !important;
+}
+.pt-contact-form-btn-align-center .wpforms-submit-container {
+    text-align: center;
+}
+.pt-contact-form-btn-align-left .wpforms-submit-container {
+    text-align: left;
+}
+.pt-contact-form-btn-align-right .wpforms-submit-container {
+    text-align: right;
+}

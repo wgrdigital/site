@@ -1,0 +1,54 @@
+/*
+Contact form 7 CSS
+*/
+
+.pt-contact-form-container input,
+.pt-contact-form-container textarea {
+    height: auto;
+    padding: 10px;
+}
+.pt-contact-form-align-center .pt-contact-form-container,
+.pt-contact-form-btn-align-center .pt-contact-form-container input.wpcf7-submit {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+    float: none;
+}
+.pt-contact-form-align-left .pt-contact-form-container,
+.pt-contact-form-btn-align-left .pt-contact-form-container input.wpcf7-submit {
+    float: left;
+    width: auto;
+}
+.pt-contact-form-align-right .pt-contact-form-container,
+.pt-contact-form-btn-align-right .pt-contact-form-container input.wpcf7-submit {
+    float: right;
+    width: auto;
+}
+.pt-contact-form-container textarea,
+.pt-contact-form-container input[type="text"],
+.pt-contact-form-container input[type="password"],
+.pt-contact-form-container input[type="datetime"],
+.pt-contact-form-container input[type="datetime-local"],
+.pt-contact-form-container input[type="date"],
+.pt-contact-form-container input[type="month"],
+.pt-contact-form-container input[type="time"],
+.pt-contact-form-container input[type="week"],
+.pt-contact-form-container input[type="number"],
+.pt-contact-form-container input[type="email"],
+.pt-contact-form-container input[type="url"],
+.pt-contact-form-container input[type="search"],
+.pt-contact-form-container input[type="tel"],
+.pt-contact-form-container input[type="color"],
+.pt-contact-form-container .uneditable-input {
+    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.pt-contact-form-container .wpcf7-form::before,
+.pt-contact-form-container .wpcf7-form::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+.pt-contact-form-container .wpcf7-response-output {
+    clear: both;
+}

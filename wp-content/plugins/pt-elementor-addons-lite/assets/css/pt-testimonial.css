@@ -1,0 +1,231 @@
+/* Testimonials Styles */
+
+.pt-testimonial-image img {
+  max-width: 100%;
+}
+
+.pt-testimonial-image {
+  padding: 10px 10px 10px 10px;
+}
+
+.pt-testimonial-image > figure {
+  display: block;
+  margin: 0;
+}
+
+.testimonial-avatar-rounded figure img {
+  border-radius: 50%;
+  height: auto;
+}
+
+.pt-testimonial-content {
+  margin: 0;
+  padding: 10px 20px 50px;
+}
+
+.pt-testimonial-item > figure {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.pt-testimonial-item .center-text {
+	text-align: center;
+}
+.pt-testimonial-item .right-text {
+	text-align: right;
+}
+.pt-testimonial-item .left-text {
+	text-align: left;
+}
+.pt-testimonial-item .justify-text {
+	text-align: justify;
+}
+
+
+/* Default aligned */
+
+.pt-testimonial-content .pt-testimonial-text {
+  font-size: 100%;
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.pt-testimonial-content .pt-testimonial-user {
+  float: left;
+  font-family: inherit;
+  font-size: 105%;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+
+.pt-testimonial-content .pt-testimonial-user-company {
+  clear:both;
+  float: left;
+  font-family: inherit;
+  font-size: 90%;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.75;
+  margin-bottom: 0;
+  margin-top: 1px;
+}
+
+.pt-testimonial-image  {
+  position: relative;
+}
+
+.pt-testimonial-image .pt-testimonial-quote::after {
+  color: inherit!important;
+  content: "\f10e";
+  font-family: "FontAwesome";
+  font-size: 200%;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+/* Left align */
+
+.pt-align-left .pt-testimonial-content,
+.pt-align-left .pt-testimonial-user,
+.pt-align-left .pt-testimonial-user-company {
+  text-align: left;
+}
+
+.pt-align-left .pt-testimonial-image {
+  float: left;
+  margin-right: 10px;
+  max-width:150px;
+  width: 30%;
+}
+
+.pt-align-left .pt-testimonial-content {
+  float: left;
+  margin-top: 20px;
+  position: relative;
+  width: 67%;
+}
+
+.pt-align-left .pt-testimonial-image .pt-testimonial-quote {
+  display: none;
+}
+
+.pt-align-left .pt-testimonial-quote::before {
+  color: inherit;
+  content: "\f10e";
+  font-family: "FontAwesome";
+  font-size: 28px;
+  right: 20px;
+  position: absolute;
+  top: 0;
+}
+.pt-align-left .pt-testimonial-content {
+  margin: 0;
+  padding: 20px 10px;
+}
+.pt-testimonial-content .pp-arrow-left {
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid transparent;
+	height: 0;
+	left: -15px;
+	position: absolute;
+	top: 30px;
+	width: 0;
+}
+
+/* Center align */
+
+.pt-align-centered .pt-testimonial-content .pt-testimonial-text {
+  text-align: center;
+}
+
+.pt-align-centered .pt-testimonial-user,
+.pt-align-centered .pt-testimonial-user-company  {
+  float: none;
+  text-align: center;
+}
+
+.pt-align-centered .pt-testimonial-image > figure img {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Right align */
+
+.pt-align-right .pt-testimonial-content,
+.pt-align-right .pt-testimonial-user,
+.pt-align-right .pt-testimonial-user-company {
+  text-align: right;
+}
+
+.pt-align-right .pt-testimonial-image {
+  float: right;
+  width: 30%;
+  max-width:150px;
+  margin-left: 10px;
+}
+
+.pt-align-right .pt-testimonial-content {
+  float: right;
+  position: relative;
+  width: 67%;
+}
+
+.pt-align-right .pt-testimonial-image .pt-testimonial-quote {
+  display: none;
+}
+
+.pt-align-right .pt-testimonial-quote::before {
+  color: inherit;
+  content: "\f10d";
+  font-family: "FontAwesome";
+  font-size: 28px;
+  left: 20px;
+  position: absolute;
+  top: 0;
+}
+
+.pt-align-right .pt-testimonial-user,
+.pt-align-right .pt-testimonial-user-company  {
+  float: none;
+  text-align: right;
+}
+
+.pt-align-right .pt-testimonial-content {
+  padding: 20px 10px;
+}
+.pt-testimonial-content .pp-arrow-right {
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid transparent;
+	border-top: 15px solid transparent;
+	height: 0;
+	right: -15px;
+	position: absolute;
+	top: 30px;
+	width: 0;
+}
+
+/* Left Align With Background */
+
+.pt-align-centered.style01 .pt-testimonial-content {
+	padding: 100px 50px 50px;
+	position: relative;
+	top: -75px;
+	z-index: 9;
+}
+.pt-align-centered.style01 .pt-testimonial-image {
+	position: relative;
+	z-index: 10;
+}
+.pt-testimonial-item {
+    overflow: hidden;
+}
+.elementor-widget-pt-testimonial {
+    background: none !important;
+}

@@ -1,0 +1,79 @@
+[
+    {
+        "name": "codeinwp/themeisle-sdk",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Codeinwp/themeisle-sdk.git",
+            "reference": "ae7fce00ef4fdec1b3f5b918ee0b5e9fe18d588f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/ae7fce00ef4fdec1b3f5b918ee0b5e9fe18d588f",
+            "reference": "ae7fce00ef4fdec1b3f5b918ee0b5e9fe18d588f",
+            "shasum": ""
+        },
+        "time": "2018-04-30 11:29:58",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "load.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "ThemeIsle team",
+                "email": "friends@themeisle.com",
+                "homepage": "https://themeisle.com"
+            }
+        ],
+        "description": "ThemeIsle SDK ",
+        "homepage": "https://github.com/Codeinwp/themeisle-sdk",
+        "keywords": [
+            "wordpress"
+        ]
+    },
+    {
+        "name": "codeinwp/full-width-page-templates",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Codeinwp/full-width-page-templates.git",
+            "reference": "770990cf96bd9cb6b8c846b1c9bff16450e2dff9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Codeinwp/full-width-page-templates/zipball/770990cf96bd9cb6b8c846b1c9bff16450e2dff9",
+            "reference": "770990cf96bd9cb6b8c846b1c9bff16450e2dff9",
+            "shasum": ""
+        },
+        "time": "2018-03-02 08:33:03",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "load.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "ThemeIsle team",
+                "email": "friends@themeisle.com",
+                "homepage": "https://themeisle.com"
+            }
+        ],
+        "description": "A WordPress library to create full width page templates.",
+        "homepage": "https://github.com/Codeinwp/full-width-page-templates"
+    }
+]

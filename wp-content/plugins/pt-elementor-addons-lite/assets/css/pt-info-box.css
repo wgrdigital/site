@@ -1,0 +1,19 @@
+/**
+Info Box Css
+**/
+.pt-info-box-section .pt-description
+{ margin: 20px 0; }
+.pt-info-box-section .pt-title {
+ margin: 20px 0; }
+.pt-info-box-section .pt-description {
+ line-height: 25px; }
+.pt-info-box-section .elementor-size-small {
+ font-size: 15px; }
+.pt-info-box-section  .elementor-size-medium {
+ font-size: 19px; }
+.pt-info-box-section  .elementor-size-large {
+ font-size: 29px; }
+.pt-info-box-section  .elementor-size-xl {
+ font-size: 39px; }
+.pt-info-box-section  .elementor-size-xxl {
+ font-size: 59px; }

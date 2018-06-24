@@ -1,0 +1,209 @@
+/*
+Time Line CSS
+*/
+
+.pt-post-timeline {
+	margin-bottom: 0;
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.left-column,.right-column {
+	position: absolute !important;
+}
+
+.pt-timeline-column {
+  width: 50%;
+  margin-left: 0;
+  float: left;
+  text-align: right;
+  margin-top: 0 !important;
+  position: relative;
+}
+
+.pt-timeline-post:nth-child(2n):after {
+	display: none;
+}
+.pt-timeline-bullet {
+	background-color: #9fa9af;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.1);
+	content: "";
+	height: 14px;
+	position: absolute;
+	right: -7px;
+	top: 60px;
+	width: 14px;
+	z-index: 3;
+	cursor: pointer;
+}
+.pt-timeline-post.right-column .pt-timeline-post-inner .time{
+	text-align:left;
+}
+.pt-timeline-post.right-column .pt-timeline-bullet {
+	background-color: #9fa9af;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	bottom: 36px;
+	content: "";
+	height: 14px;
+	left: -7px;
+	position: absolute;
+	top: 90px;
+	width: 14px;
+	z-index: 3;
+}
+.pt-timeline-post-inner {
+	background: #fff none repeat scroll 0 0;
+	float: right;
+	margin: 10px 20px 10px auto;
+	padding:20px;
+	position: relative;
+	width: 480px;
+}
+.pt-timeline-post.left-column .pt-timeline-post-inner {
+	float: right;
+	margin: 10px 20px 10px auto;
+}
+.pt-timeline-post.right-column .pt-timeline-post-inner {
+	float: left;
+	margin-left: 20px;
+}
+.left-column .pt-timeline-post-inner:after {
+	border-color: transparent transparent transparent #fff;
+	border-style: solid;
+	border-width: 10px;
+	content: "";
+	height: 0;
+	position: absolute;
+	right: -20px;
+	top: 46px;
+	width: 0;
+}
+.right-column .pt-timeline-post-inner:after {
+	border-right-color: #ffffff;
+	border-color: transparent #fff transparent transparent;
+	border-style: solid;
+	border-width: 10px;
+	content: "";
+	height: 0;
+	left: -20px;
+	position: absolute;
+	top: 77px;
+	width: 0;
+}
+
+.pt-timeline-post-title h2 {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 24px;
+	padding: 0 10px;
+	text-align: left;
+	margin: 0;
+}
+
+.pt-timeline-post-excerpt p {
+	color: #000;
+	font-size: 14px;
+	padding: 10px;
+	margin:0;
+	text-align: left;
+}
+.pt-timeline-post-inner:hover .pt-timeline-post-excerpt {
+	opacity: 1;
+	top: 10px;
+}
+.pt-timeline-post .time {
+	height: 30px;
+}
+.timeline-line {
+	border-right: 1px solid #d0d0d0;
+	height: 100%;
+	left: 50%;
+	margin-left: 0;
+	position: absolute;
+}
+	
+
+
+
+/* Responsive Style for Post Timeline */
+
+@media only screen and (max-width: 1366px) {
+	.pt-timeline-post-title h2 {
+		font-size: 0.8em;
+	}
+	.pt-timeline-post-excerpt p {
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width: 1139px){	
+	.pt-timeline-column {
+		width: 48%;
+	}
+	.timeline-line {
+		left: 48.1%;
+	}
+}
+@media only screen and (max-width: 1024px){	
+	#timeline {
+		width: 98%;
+		margin:0 auto;
+	}
+	.pt-timeline-post-inner {
+		width: 96%;
+	}
+		.pt-timeline-column {
+		width: 48%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.pt-timeline-post {
+		display: block;
+		float: none !important;
+		margin: 20px auto;
+		width: 100% !important;
+	}
+	.pt-timeline-post .pt-timeline-post-inner,
+	.pt-timeline-post:nth-child(2n) .pt-timeline-post-inner {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		width: 90%;
+	}
+	.left-column .pt-timeline-post-inner::after,
+	.timeline-line,
+	.pt-timeline-bullet {
+		display: none;
+	}
+	.pt-timeline-post-inner ,
+	.pt-timeline-post-title h2,
+	.pt-timeline-post-excerpt > p
+	{
+		text-align: center;
+	}
+	.pt-timeline-post .pt-timeline-post-inner, 
+	.pt-timeline-post:nth-child(2n) .pt-timeline-post-inner {		
+		width: 100%;
+		margin:0 !important;
+	}	
+	time:before {
+		display: none;
+	}
+}
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 479px) {
+	.pt-timeline-post .pt-timeline-post-inner,
+	.pt-timeline-post:nth-child(2n) .pt-timeline-post-inner {		
+		margin: 0 auto;		
+	}
+	.pt-timeline-post time,
+	.pt-timeline-post:nth-child(2n) time {
+		top: 205px;
+	}
+}
